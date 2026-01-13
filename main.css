@@ -1,0 +1,103 @@
+body {
+        margin: 0;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      .header {
+        background-color: #c9fdf6;
+        text-align: center;
+        padding: 12px 0;
+      }
+
+      .header h1 {
+        margin: 0;
+        color: #0a6f64;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      .menu {
+        text-align: center;
+        padding: 4px 0;
+        background-color: #f5fffd;
+      }
+
+      .menu a {
+        display: inline-block;
+        padding: 2px 6px;
+        margin: 0;
+        color: #004bff;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 16px;
+      }
+
+      .menu a:hover {
+        background-color: #004bff;
+        color: #ffffff;
+      }
+
+      .menu a.active {
+        background-color: #004bff;
+        color: #ffffff;
+      }
+
+      .container {
+        width: 85%;
+        margin: 20px auto;
+        background: #ffffff;
+        padding: 15px;
+      }
+
+      .clinic-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      h2 {
+        color: #0b5c8e;
+        border-bottom: 2px solid #e3f2fd;
+        padding-bottom: 5px;
+        margin-top: 20px;
+      }
+
+      .intro p {
+        line-height: 1.6;
+        color: #333;
+      }
+
+      ul {
+        list-style: disc;
+        padding-left: 20px;
+        width: 300px;
+      }
+
+      li {
+        padding:6px 10px;
+        transition: background-color 0.2s ease;
+      }
+
+      li:hover {
+        background-color: #dbeafe;
+      }
+
+      a {
+        text-decoration: none;
+        color: #0645ad;
+        display: block;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .footer {
+        background-color: #0f7f73;
+        color: #ffffff;
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 15px;
+        padding: auto;
+        line-height: 1.5;
+      }
